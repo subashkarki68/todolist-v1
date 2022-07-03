@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
-let lists = ['Buy Food', 'Cook Food', 'Eat Food'];
+let lists = ['Buy Food', 'Cook Food', 'Eat Food', 'Goto toilet'];
 
 app.get('/', function (req, res) {
 
